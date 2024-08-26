@@ -165,3 +165,24 @@
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Correspondent/blue.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Correspondent/blue.rsi
+
+# Doctor
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: RMCClothingOuterCoatLab
+  name: lab coat
+  description: A suit that protects against minor chemical spills.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/labcoat.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/labcoat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Caustic: 0.75
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLab]
+  id: RMCClothingOuterCoatLabOpened
+  name: lab coat
