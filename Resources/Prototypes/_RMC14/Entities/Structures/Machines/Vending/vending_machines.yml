@@ -194,7 +194,7 @@
 - type: vendingMachineInventory
   id: CMVendorCigs
   startingInventory:
-    RMCCigarettePackLuckySloths: 50 
+    RMCCigarettePackLuckySloths: 50
     RMCTarbackCase: 15
     Lighter: 25
     RMCZippo: 10
@@ -220,7 +220,7 @@
 - type: vendingMachineInventory
   id: CMVendorSec
   startingInventory: # TODO RMC14
-    CMHandcuffs: 8
+    RMCHandcuffs: 8
     Zipties: 10
     GrenadeFlashBang: 4
     RMCWeaponTaser: 4
@@ -229,7 +229,7 @@
     RMCFlashlight: 4
     CMBeltSecurityMP: 10
     CMFlash: 5
-    FoodBoxDonut: 12
+    RMCBoxDonut: 12
     # Evidence box 6
     CMArmorHelmetM10MP: 6
     CMHeadCapMP: 6
@@ -268,7 +268,6 @@
     CMFirstAidKitFilled: 2
     CMBurnAidKitFilled: 2 #firstaid fire 2
     #MedkitRadiationFilled: 1 #firstaid rad 1
-    CMHeadsetAlpha: 6
     # Crew Monitor
 
 
